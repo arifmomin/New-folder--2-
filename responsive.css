@@ -1,0 +1,134 @@
+@media (max-width: 896px){
+    .testimonial-middle p {
+        max-width: 558px;
+    }
+    .rating-part .rating-left {
+        display: none;
+    }
+    .small-rating{
+        display: block !important;
+    }
+    .smal-device .rating-left{
+        margin-top: 35px;
+        justify-content: start;
+    }
+    .testimonial-item {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .testimonial-col {
+        padding: 27px 0 27px;
+        gap: 27px;
+    }
+    .testimonial-right{
+        display: none;
+    }
+    .popup-content {
+        flex-direction: column;
+    }
+    .popup-col{
+        width: 100% !important;
+    }
+    .photo-scrollbar img{
+        width: 100px;
+    }
+    .popup {
+        position: absolute;
+        height: 100%;
+        background: white;
+    }
+}
+@media (max-width: 769px) {
+    #reviews{
+        padding: 38px 0;
+    }
+    .smal-device{
+        display: block;
+    }
+    .rating-middle-left{
+        height: auto !important;
+    }
+    .reviews-title{
+        margin-bottom: 21px;
+    }
+}
+
+@media (max-width: 556px) {
+    .reviews-title{
+        font-size: 27px;
+    }
+    .rating-middle-left{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border: none;
+       margin-bottom: 30px;
+    }
+    .rating-right{
+        display: none;
+    }
+    .rating-rate{
+        font-size: 15px;
+    }
+.rating-star{
+    margin-bottom: 1px;
+}
+.custom-selector select {
+    padding: 8px 30px 8px 14px;
+}
+.rating-rate-text{
+    margin: 0 21px 0 15px;
+}
+.rating-part {
+    padding-bottom: 30px;
+}
+.testimonial-row {
+    margin-top: 19px;
+}
+}
+@media (min-width: 557px) and (max-width: 675px){
+    .rating-middle{
+        column-gap: 0px;
+    }
+    .rating-middle-left{
+        border: none;
+    }
+}
+@media (min-width: 676px) and (max-width: 768px){
+    .rating-middle{
+        column-gap: 30px;
+    }
+}
+@media (min-width: 557px) and (max-width: 768px){
+    .smal-device .custom-selector{
+        display: none;
+    }
+    .rating-rate-text {
+        margin: 0 25px 0 25px;
+    }
+    .rating-rate {
+        font-size: 30px;
+    }
+    .custom-selector select {
+        padding: 8px 30px 8px 14px;
+    }
+    .reviews-title{
+        font-size: 36px;
+    }
+}
+@media (min-width: 769px) and (max-width: 992px){
+    #reviews {
+        padding: 60px 0 50px;
+    }
+    .reviews-title {
+        font-size: 42px;
+        margin-bottom: 50px;
+    }
+    .custom-selector select {
+        padding: 10px 35px 10px 15px;
+    }
+    .testimonial-middle p {
+        max-width: 558px;
+    }
+}

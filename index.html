@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <section id="reviews">
+        <div class="container">
+            <div class="reviews-heading">
+                <h2 class="reviews-title">Reviews</h2>
+            </div>
+            <div class="rating-part">
+                <div class="rating-left">
+                    <button class="rating-left-btn">Reviews (<span>123124</span>)</button>
+                    <button class="rating-right-btn">Q&A (<span>272</span>)</button>
+                </div>
+                <div class="rating-middle">
+                    <div class="rating-middle-left">
+                        <h3 class="rating-rate">4.9/5.0</h3>
+                        <div class="rating-rate-text">
+                            <div class="rating-star">
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                            </div>
+                            <p class="reviews-count"><span>12157</span> Reviews</p>
+                        </div>
+                        <div class="smal-device">
+                            <div class="custom-selector">
+                                <select id="options">
+                                    <option value="Sort">Sort</option>
+                                    <option value="Sort">Sort</option>
+                                    <option value="Sort">Sort</option>
+                                    <option value="Sort">Sort</option>
+                                </select>
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rating-middle-right">
+                        <div class="star-rating">
+                            <h4 class="star"><span>5</span> Star</h4>
+                            <div class="rating-progress">
+                                <div class="progress-bar"></div>
+                            </div>
+                            <p class="review-count">(<span>8882</span>)</p>
+                        </div>
+                        <div class="star-rating">
+                            <h4 class="star"><span>4</span> Star</h4>
+                            <div class="rating-progress">
+                                <div class="progress-bar"></div>
+                            </div>
+                            <p class="review-count">(<span>1253</span>)</p>
+                        </div>
+                        <div class="star-rating">
+                            <h4 class="star"><span>3</span> Star</h4>
+                            <div class="rating-progress">
+                                <div class="progress-bar"></div>
+                            </div>
+                            <p class="review-count">(<span>762</span>)</p>
+                        </div>
+                        <div class="star-rating">
+                            <h4 class="star"><span>2</span> Star</h4>
+                            <div class="rating-progress">
+                                <div class="progress-bar"></div>
+                            </div>
+                            <p class="review-count">(<span>490</span>)</p>
+                        </div>
+                        <div class="star-rating">
+                            <h4 class="star"><span>1</span> Star</h4>
+                            <div class="rating-progress">
+                                <div class="progress-bar"></div>
+                            </div>
+                            <p class="review-count">(<span>780</span>)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="rating-right">
+                    <div class="custom-selector">
+                        <select id="options">
+                            <option value="Sort">Sort</option>
+                            <option value="Sort">Sort</option>
+                            <option value="Sort">Sort</option>
+                            <option value="Sort">Sort</option>
+                        </select>
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>    
+                </div>
+            </div>
+            <div class="review-photo-part">
+                <div class="photo-heading">
+                    <h5>Customer  photos</h5>
+                    <h6>See All</h6>
+                </div>
+                <div class="photo-all">
+                    <img src="img/image-1.png" alt="image-1.png" onclick="openPopup(this)">
+                    <img src="img/image-2.png" alt="image-2.png" onclick="openPopup(this)">
+                    <img src="img/image-3.png" alt="image-3.png" onclick="openPopup(this)">
+                    <img src="img/image-4.png" alt="image-4.png" onclick="openPopup(this)">
+                    <img src="img/image-5.png" alt="image-5.png" onclick="openPopup(this)">
+                    <img src="img/image-6.png" alt="image-6.png" onclick="openPopup(this)">
+                    <img src="img/image-7.png" alt="image-7.png" onclick="openPopup(this)">
+                    <img src="img/image-8.png" alt="image-8.png" onclick="openPopup(this)">
+                    <img src="img/image-9.png" alt="image-9.png" onclick="openPopup(this)">
+                </div>
+            </div>
+            <div class="smal-device small-rating">
+                <div class="rating-left">
+                    <button class="rating-left-btn">Reviews (<span>123124</span>)</button>
+                    <button class="rating-right-btn">Q&A (<span>272</span>)</button>
+                </div>
+            </div>
+            <div class="testimonial-row">
+                <div class="testimonial-col">
+                    <div class="testimonial-item">
+                        <div class="testimonial-left">
+                            <div class="testimonial-icon">
+                                <img src="img/user.png" alt="user.png">
+                            </div>
+                            <div class="testimonial-info">
+                                <h3>Guest</h3>
+                                <h4>Verified Buyer</h4>
+                                <p>Lights 2.0</p>
+                            </div>
+                        </div>
+                        <div class="smal-device small-rating">
+                            <p class="testimonial-date">6/21/24</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-middle">
+                        <div class="rating-star">
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                        </div>
+                        <h5>Better than I ever thought it could be</h5>
+                        <p>Honestly this cat box has changed both my cat’s and my family’s life. Our old boy has arthritis and struggled to use the regular cat box in let’s say, a clean way. There were always tracks leading from the box and cat litter scattered all through the ... <span>Show More</span></p>
+                    </div>
+                <div class="testimonial-right">
+                    <p class="testimonial-date">6/21/24</p>
+                </div>
+                </div>
+                <div class="testimonial-col">
+                    <div class="testimonial-item">
+                        <div class="testimonial-left">
+                            <div class="testimonial-icon">
+                                <img src="img/user.png" alt="user.png">
+                            </div>
+                            <div class="testimonial-info">
+                                <h3>Guest</h3>
+                                <h4>Verified Buyer</h4>
+                                <p>Lights 2.0</p>
+                            </div>
+                        </div>
+                        <div class="smal-device small-rating">
+                            <p class="testimonial-date">6/21/24</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-middle">
+                        <div class="rating-star">
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                        </div>
+                        <h5>Better than I ever thought it could be</h5>
+                        <p>Honestly this cat box has changed both my cat’s and my family’s life. Our old boy has arthritis and struggled to use the regular cat box in let’s say, a clean way. There were always tracks leading from the box and cat litter scattered all through the ... <span>Show More</span></p>
+                    </div>
+                <div class="testimonial-right">
+                    <p class="testimonial-date">6/21/24</p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup()">&times;</span>
+            <div class="popup-col">
+                <div class="popup-main-img">
+                    <img id="popup-img" src="" alt="">
+                </div>
+                <div class="photo-all photo-scrollbar">
+                    <img src="img/image-1.png" alt="image-1.png" onclick="openPopup(this)">
+                    <img src="img/image-2.png" alt="image-2.png" onclick="openPopup(this)">
+                    <img src="img/image-3.png" alt="image-3.png" onclick="openPopup(this)">
+                    <img src="img/image-4.png" alt="image-4.png" onclick="openPopup(this)">
+                    <img src="img/image-5.png" alt="image-5.png" onclick="openPopup(this)">
+                    <img src="img/image-6.png" alt="image-6.png" onclick="openPopup(this)">
+                    <img src="img/image-7.png" alt="image-7.png" onclick="openPopup(this)">
+                    <img src="img/image-8.png" alt="image-8.png" onclick="openPopup(this)">
+                    <img src="img/image-9.png" alt="image-9.png" onclick="openPopup(this)">
+                </div>
+            </div>
+            <div class="testimonial-row popup-testimonial">
+                <div class="testimonial-col">
+                    <div class="testimonial-item">
+                        <div class="testimonial-left">
+                            <div class="testimonial-icon">
+                                <img src="img/user.png" alt="user.png">
+                            </div>
+                            <div class="testimonial-info">
+                                <h3>Guest</h3>
+                                <h4>Verified Buyer</h4>
+                                <p>Lights 2.0</p>
+                            </div>
+                        </div>
+                        <div class="smal-device small-rating">
+                            <p class="testimonial-date">6/21/24</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-middle">
+                        <div class="rating-star">
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                        </div>
+                        <h5>Better than I ever thought it could be</h5>
+                        <p>Honestly this cat box has changed both my cat’s and my family’s life. Our old boy has arthritis and struggled to use the regular cat box in let’s say, a clean way. There were always tracks leading from the box and cat litter scattered all through the ... <span>Show More</span></p>
+                    </div>
+                <div class="testimonial-right">
+                    <p class="testimonial-date">6/21/24</p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
